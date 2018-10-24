@@ -6,6 +6,7 @@
 package ecryptiondecryption;
 
 
+
 /**
  *
  * @author MH Habib
@@ -15,6 +16,7 @@ public class EcryptionDecryption {
     /**
      * @param args the command line arguments
      */
+    
     public static void main(String[] args) {
         EDcrypt run=new EDcrypt();
         run.setVisible(true);
