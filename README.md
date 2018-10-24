@@ -16,10 +16,11 @@ Plain Text: Hello git people
 Key: mhhabib
 Ciper text: XTwzZBV3/fwa31SXdbmhfxUk9Mfvo2hcGw79/3SpOJk=
 ```
-## Outpu method:
+## Output method:
 ```sh
 Cipher Text: XTwzZBV3/fwa31SXdbmhfxUk9Mfvo2hcGw79/3SpOJk=
 Key: mhhabib
 Ciper text: Hello git people
 ```
-### Details will be found:### [GitHub](http://mhhabib.info)
+### Details will be found:
+[MH Habib](http://mhhabib.info)
