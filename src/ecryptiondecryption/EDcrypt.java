@@ -75,6 +75,8 @@ public class EDcrypt extends javax.swing.JFrame {
         jLabel3 = new javax.swing.JLabel();
         jLabel1 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
+        jLabel5 = new javax.swing.JLabel();
+        jLabel6 = new javax.swing.JLabel();
         message1 = new javax.swing.JLabel();
         message2 = new javax.swing.JLabel();
         mainsection = new javax.swing.JLabel();
@@ -223,6 +225,20 @@ public class EDcrypt extends javax.swing.JFrame {
         getContentPane().add(jLabel4);
         jLabel4.setBounds(470, 220, 110, 30);
 
+        jLabel5.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
+        jLabel5.setForeground(new java.awt.Color(0, 0, 51));
+        jLabel5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel5.setText("Message to Decrypt");
+        getContentPane().add(jLabel5);
+        jLabel5.setBounds(470, 50, 300, 30);
+
+        jLabel6.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
+        jLabel6.setForeground(new java.awt.Color(0, 0, 51));
+        jLabel6.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel6.setText("Message to Encrypt ");
+        getContentPane().add(jLabel6);
+        jLabel6.setBounds(80, 50, 300, 30);
+
         message1.setForeground(new java.awt.Color(204, 0, 0));
         message1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         getContentPane().add(message1);
@@ -270,7 +286,7 @@ public class EDcrypt extends javax.swing.JFrame {
         }
         catch (Exception e)
         {
-            text2.setText("Error while encrypting: " + e.toString());
+            text2.setText("Please fill up the right secret key");
             
         }        
     }//GEN-LAST:event_encryptActionPerformed
@@ -298,7 +314,7 @@ public class EDcrypt extends javax.swing.JFrame {
         }
         catch (Exception e)
         {
-            text4.setText("Error while decrypting: " + e.toString());
+            text4.setText("Please fill up the right secret key");
         }
     }//GEN-LAST:event_decryptActionPerformed
 
@@ -353,6 +369,8 @@ public class EDcrypt extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel6;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JScrollPane jScrollPane3;
