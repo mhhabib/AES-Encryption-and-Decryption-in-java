@@ -23,4 +23,7 @@ Key: mhhabib
 Ciper text: Hello git people
 ```
 ### Details will be found:
-[MH Habib](http://mhhabib.info)
+Personal Webite: [MH Habib](http://mhhabib.info)
+
+## Copyright and License 
+Licensed by: [MIT LICENSE](License)
