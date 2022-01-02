@@ -22,8 +22,6 @@ Cipher Text: XTwzZBV3/fwa31SXdbmhfxUk9Mfvo2hcGw79/3SpOJk=
 Key: mhhabib
 Ciper text: Hello git people
 ```
-### Details will be found:
-Personal Webite: [MH Habib](http://mhhabib.info)
 
-## Copyright and License 
+
 Licensed by: [MIT LICENSE](License)
